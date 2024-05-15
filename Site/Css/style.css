@@ -3,6 +3,8 @@
 :root {
     --dark-color: #333;
     --max-width: 1100px;
+    --back-color: #FFFAF0;
+    --wh-color: #fff;
 }
 
 .category {
@@ -19,7 +21,7 @@
 body {
     font-family: "Vazir" , Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    background: #71c1cf ;
+    background: var(--back-color);
 }
 
 a {
@@ -45,9 +47,8 @@ h2 {
     color: #333;
 }
 
-ul {
-    padding: 2px;
-    margin-right: 10px;
+p , a , h1 , h2 {
+    font-weight: bold;
 }
 
 
@@ -68,8 +69,19 @@ ul {
     padding: 0.3rem 0.4rem;
     border-radius: 15px;
     margin-bottom: 0.5rem;
-    background: var(--nature-color);
+    background: var(--wh-color);
 }
+
+.category2 {
+    display: inline-block;
+    color: var(--wh-color);
+    font-size: 0.85rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    background: rgb(0, 132, 255);
+}
+
 
 .cate{
     display: inline-block;
@@ -87,7 +99,7 @@ ul {
 }
 
 .cat {
-    background-color: antiquewhite;
+    background-color: var(--back-color);
     padding: 0.3rem 0.4rem;
     border-radius: 15px;
     margin-bottom: 0.5rem;
@@ -99,7 +111,9 @@ ul {
     border: none;
     background: var(--dark-color);
     color: #fff;
+    border-radius: 15px;
     padding: 00.5rem 1.5rem;
+    margin-bottom: 5px;
 }
 
 
@@ -108,7 +122,7 @@ ul {
 }
 
 .card {
-    background: #fff;
+    background: var(--back-color);
     padding: 1rem;
 }
 
@@ -126,7 +140,7 @@ ul {
 }
 
 .hire {
-    background-color: gray;
+    background-color: var(--wh-color);
     margin-bottom: 0.5rem;
     border-radius: 15px;
 }
@@ -138,9 +152,9 @@ ul {
 
 .txt2 {
     display: inline-block;
-    border: 2px solid black;
     border-radius: 15px;
-    background-color: rgb(213, 186, 150);
+    color: var(--wh-color);
+    background-color: rgb(0, 132, 255);
     font-size: 0.85rem;
     padding: 0.3rem 0.4rem;
     margin-bottom: 0.5rem;
