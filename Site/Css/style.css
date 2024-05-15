@@ -70,6 +70,7 @@ p , a , h1 , h2 {
     border-radius: 15px;
     margin-bottom: 0.5rem;
     background: var(--wh-color);
+    box-shadow: 0 0 20px;
 }
 
 .category2 {
@@ -80,6 +81,7 @@ p , a , h1 , h2 {
     border-radius: 15px;
     margin-bottom: 0.5rem;
     background: rgb(0, 132, 255);
+    box-shadow: 0 0 20px;
 }
 
 
@@ -143,6 +145,7 @@ p , a , h1 , h2 {
     background-color: var(--wh-color);
     margin-bottom: 0.5rem;
     border-radius: 15px;
+    box-shadow: 0 0 20px;
 }
 
 
